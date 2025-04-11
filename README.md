@@ -1,4 +1,8 @@
-# cs240-project
+# DigitEcho: cs240-project
+
+small intro
+
+# misc
 
 report link: https://www.overleaf.com/5831148356xjtytsgpwqvw#4c5ddc
 
@@ -39,9 +43,6 @@ problem statement: Input: Audio clips of spoken digits (0-9) → Output: Predict
 requirements: Focus on feature extraction (e.g., MFCCs) and simple classifiers (e.g., SVMs or small RNNs). Audio processing intro.
 
 
-# project name
-
-small intro
 
 ## Description
 
