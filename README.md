@@ -92,7 +92,12 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+**[MIT License](LICENSE.md)**
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+> [!NOTE]  
+> When using the DigitEcho or other GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
 
 ## Acknowledgments
 
