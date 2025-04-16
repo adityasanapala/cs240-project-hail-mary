@@ -1,6 +1,6 @@
 # DigitEcho: cs240-project
 
-small intro
+A minimalist, powerful application that recognizes spoken digits using machine learning. This application can identify numbers 0-9 from voice input in real-time.
 
 # misc
 
@@ -46,7 +46,7 @@ requirements: Focus on feature extraction (e.g., MFCCs) and simple classifiers (
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Voice Digit Recognizer is an innovative app that uses Machine Learning to recognize spoken digits. It listens to your voice and predicts which digit you are saying, based on the audio version of the popular MNIST dataset. This app leverages audio recognition techniques and deep learning models to identify spoken numbers in real-time.
 
 ## Getting Started
 
@@ -102,3 +102,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
+
+## Contributing
+
+Feel free to fork the repo and submit pull requests. If you have suggestions for improvements or bug fixes, please open an issue!
