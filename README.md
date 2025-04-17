@@ -4,6 +4,12 @@ A minimalist, powerful application that recognizes spoken digits using machine l
 
 # misc
 
+openai whisper: https://openai.com/index/whisper/
+
+whisper on huggingface: https://huggingface.co/openai/whisper-large-v3
+
+whisper on github: https://github.com/openai/whisper
+
 report link: https://www.overleaf.com/5831148356xjtytsgpwqvw#4c5ddc
 
 link to project list: https://docs.google.com/spreadsheets/d/e/2PACX-1vQpP2_goR3xesuV4zWPq5CvvG9vBl_4WqmUQQgkA9PZBFbYMyAmK6F8GA8iNupQEHJWQ_K4QCOwr7bl/pubhtml
