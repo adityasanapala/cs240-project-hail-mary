@@ -4,6 +4,16 @@ A minimalist, powerful application that recognizes spoken digits using machine l
 
 # misc
 
+ppt (casual): https://docs.google.com/presentation/d/1w5A7WI1cHZdr9BLm-A5HsKbUcG_dYnyW_wL003Ix6yM/edit?usp=sharing
+
+ppt (premium): 
+
+speech-to-text guide: https://platform.openai.com/docs/guides/speech-to-text
+
+openai model docs: https://platform.openai.com/docs/models
+
+
+
 openai whisper: https://openai.com/index/whisper/
 
 whisper on huggingface: https://huggingface.co/openai/whisper-large-v3
