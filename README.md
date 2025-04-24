@@ -47,6 +47,12 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
     * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
+ 
+## Future Plans
+
+Maybe make it a full blown speech-to-text platform.
+
+If you have any suggestions, do reach out to us.
 
 ## License
 
