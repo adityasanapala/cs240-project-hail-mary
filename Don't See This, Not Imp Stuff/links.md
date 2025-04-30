@@ -1,5 +1,7 @@
 # misc
 
+ppt (official): https://docs.google.com/presentation/d/1kbktl1b_SkffmqVJb4H1JaBp1k_KF3vga_wqymZg5Q8/edit?usp=sharing
+
 ppt (casual): https://docs.google.com/presentation/d/1w5A7WI1cHZdr9BLm-A5HsKbUcG_dYnyW_wL003Ix6yM/edit?usp=sharing
 
 ppt (premium): 
