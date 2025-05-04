@@ -42,11 +42,15 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
+* 1.0
+   * Final submitted project version
+   * Addition of OpenAI-Whisper based models
+   * See [commit change]() or See [release history]()
 * 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
+   * Addition of 2 more models (KNN and Random Forest)
+   * See [commit change]() or See [release history]()
 * 0.1
-    * Initial Release
+   * Initial Release
  
 ## Future Plans
 
