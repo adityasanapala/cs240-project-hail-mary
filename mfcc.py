@@ -3,13 +3,17 @@ import librosa
 import numpy as np
 
 # Path to the directory containing the .wav files
-DATASET_PATH = 'recordings/'
+DATASET_PATH = './recordings/'
 
-# Directory to save the MFCC files as .txt
+# Directory to save the full MFCC matrices
 MFCC_OUTPUT_DIR = 'mfcc_txt/'
 
-# Create output directory if it doesn't exist
+# Directory to save the fixed-length mean MFCC vectors
+MFCC_MEAN_OUTPUT_DIR = 'mfcc_mean/'
+
+# Create output directories if they don't exist
 os.makedirs(MFCC_OUTPUT_DIR, exist_ok=True)
+os.makedirs(MFCC_MEAN_OUTPUT_DIR, exist_ok=True)
 
 # Parameters
 NUM_MFCC = 13
@@ -32,14 +36,20 @@ for filename in os.listdir(DATASET_PATH):
         mfcc = librosa.feature.mfcc(
             y=y, sr=sr, n_mfcc=NUM_MFCC, n_fft=N_FFT, hop_length=HOP_LENGTH
         )
-        
-        # Transpose to (frames x coeffs) for easier viewing in text
-        mfcc = mfcc.T
-        
-        # Create output filename
+
+        # Transpose to (frames x coeffs) for full MFCC matrix
+        mfcc_transposed = mfcc.T
+
+        # Save the full MFCC matrix
         output_filename = os.path.splitext(filename)[0] + '.txt'
         output_path = os.path.join(MFCC_OUTPUT_DIR, output_filename)
-        
-        # Save as .txt
-        np.savetxt(output_path, mfcc, fmt='%.6f')
+        np.savetxt(output_path, mfcc_transposed, fmt='%.6f')
+
+        # Compute mean across time frames (axis=1 gives mean for each coefficient)
+        mfcc_mean = np.mean(mfcc, axis=1)
+
+        # Save the fixed-length feature vector
+        mean_output_path = os.path.join(MFCC_MEAN_OUTPUT_DIR, output_filename)
+        np.savetxt(mean_output_path, mfcc_mean.reshape(1, -1), fmt='%.6f')  # save as single row
+
 print("Done")
