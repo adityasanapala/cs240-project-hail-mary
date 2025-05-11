@@ -1,0 +1,39 @@
+Loading data from directory: /Users/aaryansanapala/Downloads/mfcc_mean
+Loaded 3000 samples with shape (13,)
+Training model...
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Best parameters: {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+
+Confusion Matrix:
+ [[59  0  0  1  0  0  0  0  0  0]
+ [ 0 59  0  0  0  0  0  1  0  0]
+ [ 0  0 60  0  0  0  0  0  0  0]
+ [ 2  0  1 54  0  0  2  0  1  0]
+ [ 0  0  0  0 60  0  0  0  0  0]
+ [ 0  0  0  0  0 60  0  0  0  0]
+ [ 0  0  0  2  0  0 57  0  1  0]
+ [ 0  0  0  0  0  0  0 60  0  0]
+ [ 0  0  0  0  0  0  0  0 60  0]
+ [ 0  0  0  0  0  0  0  2  0 58]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.97      0.98      0.98        60
+           1       1.00      0.98      0.99        60
+           2       0.98      1.00      0.99        60
+           3       0.95      0.90      0.92        60
+           4       1.00      1.00      1.00        60
+           5       1.00      1.00      1.00        60
+           6       0.97      0.95      0.96        60
+           7       0.95      1.00      0.98        60
+           8       0.97      1.00      0.98        60
+           9       1.00      0.97      0.98        60
+
+    accuracy                           0.98       600
+   macro avg       0.98      0.98      0.98       600
+weighted avg       0.98      0.98      0.98       600
+
+Test accuracy: 0.9783
+Model saved to digit_svm_model.pkl
+Scaler saved to digit_svm_scaler.pkl
